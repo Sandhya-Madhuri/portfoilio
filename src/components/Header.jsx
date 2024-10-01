@@ -8,11 +8,11 @@ function Header() {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
   return (
-    <header className="navbar fixed-header">
-      <div className="navbar-logo">
+    <header className="header fixed-header">
+      <div className="logo">
         <h1>DevFolio</h1>
       </div>
-      <nav>
+      <nav className="navbar">
         <ul className="navbar-links">
           <li>
             <a href="#home" onClick={() => scrollToSection(homeRef)}>
@@ -24,18 +24,20 @@ function Header() {
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#services" onClick={() => scrollToSection(servicesRef)}>
               Services
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#projects" onClick={() => scrollToSection(projectRef)}>
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={() => scrollToSection(contactRef)}>
+              Contact
+            </a>
           </li>
         </ul>
       </nav>

@@ -37,6 +37,8 @@ h2.role {
   text-align: center;
   width: 300px;
   animation: typing 2s steps(20, start) backwards;
+  /* animation-duration: 1s;
+  animation-iteration-count: 100; */
 }
 
 .home-section::before {
@@ -53,7 +55,7 @@ h2.role {
 .cursor {
   display: inline-block;
   margin-left: 5px;
-  font-size: 32px;
+  font-size: 55px;
   opacity: 1;
   animation: blink 1s infinite;
 }

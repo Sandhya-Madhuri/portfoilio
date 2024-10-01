@@ -9,8 +9,8 @@ function Profile() {
   const { aboutRef } = useContext(RefContext);
 
   return (
-    <div className="about-container">
-      <div className="profile-content" ref={aboutRef}>
+    <div className="about-container" ref={aboutRef}>
+      <div className="profile-content">
         <ProfileCard />
         <Skills />
       </div>
