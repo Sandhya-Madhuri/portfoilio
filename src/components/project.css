@@ -1,0 +1,18 @@
+.projects-container {
+  display: grid;
+  margin: 2rem;
+}
+ul.projects-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style: none;
+  /* column-gap: 50px; */
+  /* row-gap: 50px; */
+
+  gap: 30px;
+}
+ul.projects-list li {
+  background-color: dimgray;
+  margin-right: 1rem;
+  padding: 2rem 1rem;
+}

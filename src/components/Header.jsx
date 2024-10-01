@@ -34,22 +34,6 @@ function Header() {
               Projects
             </a>
           </li>
-          <li className="dropdown">
-            <a href="#dropdown">
-              Dropdown <span>&#x25BC;</span>
-            </a>
-            <ul className="dropdown-content">
-              <li>
-                <a href="#option1">Option 1</a>
-              </li>
-              <li>
-                <a href="#option2">Option 2</a>
-              </li>
-              <li>
-                <a href="#option3">Option 3</a>
-              </li>
-            </ul>
-          </li>
           <li>
             <a href="#contact">Contact</a>
           </li>
