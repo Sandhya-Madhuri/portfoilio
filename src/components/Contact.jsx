@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./contact-styles.css";
+import { RefContext } from "./RefContext";
+
 const Contact = () => {
+  const { contactRef } = useContext(RefContext);
   return (
-    <section id="contact" className="contact-section">
+    <section id="contact" className="contact-section" ref={contactRef}>
       <h2>Contact Me</h2>
       <div>
         <ul className="contact-list">

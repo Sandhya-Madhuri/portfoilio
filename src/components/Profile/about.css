@@ -1,0 +1,25 @@
+.about-section {
+  margin: 1rem;
+  /* box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2); */
+  flex: 2;
+  align-self: flex-start;
+  padding: 35px 20px;
+}
+.about-section p {
+  text-align: left;
+}
+
+h4.about-head {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+h4.about-head::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 64px;
+  height: 3px;
+  background: #f5a;
+  margin: 5px 0;
+}

@@ -1,0 +1,14 @@
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  margin: 1rem;
+  background-color: #fff;
+}
+
+.about-container .profile-content {
+  flex: 1.5;
+}
+
+.profile-image {
+  display: flex;
+}

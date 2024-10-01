@@ -1,0 +1,40 @@
+.skills-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.skill-bar {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-weight: bold;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.filled {
+  height: 100%;
+  background-color: #007bff; /* Blue color */
+  border-radius: 10px;
+  transition: width 0.5s ease;
+}

@@ -1,0 +1,65 @@
+.home-section {
+  height: 100vh;
+  background: url("./../assets/bg-laptop.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.home-content {
+  /* z-index: 1;
+   */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  /* margin: 0; */
+  color: #fff;
+  margin: 0;
+}
+
+h2.role {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  width: 300px;
+  animation: typing 2s steps(20, start) backwards;
+}
+
+.home-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.cursor {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 32px;
+  opacity: 1;
+  animation: blink 1s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+}

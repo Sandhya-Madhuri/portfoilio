@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import { RefContext } from "./RefContext";
 
 const Projects = () => {
+  const { projectRef } = useContext(RefContext);
+
   const projects = [
     {
       title: "Data Visualization Dashboard",
@@ -23,16 +26,16 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="projects-section">
+    <section id="projects" className="projects-section" ref={projectRef}>
       <h2>Projects</h2>
       <div className="project-list">
         {projects.map((project, index) => (
           <div key={index} className="project-item">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
+            {/* <a href={project.link} target="_blank" rel="noopener noreferrer">
               View Project
-            </a>
+            </a> */}
           </div>
         ))}
       </div>
