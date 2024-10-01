@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  background-color: #f9f9f7;
 }
 
 header {
@@ -33,7 +34,7 @@ nav ul li a {
 .skills-section,
 .projects-section,
 .contact-section {
-  padding: 60px 20px;
+  padding: 20px;
   text-align: center;
 }
 

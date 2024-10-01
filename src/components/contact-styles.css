@@ -1,8 +1,38 @@
+.contact-section {
+  background-color: #0078ff;
+}
+
+.contact-text {
+  color: rgb(255, 255, 255);
+}
+
 .contact-list {
   list-style: none;
   align-content: center;
   margin: auto;
   text-align: left;
-  width: 300px;
+  width: 80%;
+  justify-content: center;
   margin: auto;
+  display: flex;
+}
+
+.contact-list li {
+  color: #ffffff;
+  margin: 0.5rem 0.5rem;
+}
+
+.contact-list li a {
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+}
+.contact-list li a span {
+  /* position: relative;
+  bottom: 2px;
+  left: 2px; */
 }

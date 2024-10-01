@@ -19,8 +19,9 @@ h4.about-head::after {
   content: "";
   position: absolute;
   display: block;
-  width: 64px;
-  height: 3px;
-  background: #f5a;
+  width: 69px;
+  height: 2.5px;
+  background: #558cff;
+  border-radius: 3px;
   margin: 5px 0;
 }
