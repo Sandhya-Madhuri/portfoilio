@@ -10,7 +10,8 @@ function Header() {
   return (
     <header className="header fixed-header">
       <div className="logo">
-        <h1>DevFolio</h1>
+        {/* <h1>DevFolio</h1> */}
+        <img src="assets/sm-logo.jpg" alt="logo" width={"50px"} />
       </div>
       <nav className="navbar">
         <ul className="navbar-links">
