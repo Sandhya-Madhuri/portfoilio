@@ -1,6 +1,9 @@
 import React, { useContext } from "react";
 import { RefContext } from "./RefContext";
+import "./projects.css";
 import "./project.css";
+
+import Project from "./Project";
 const Projects = () => {
   const { projectRef } = useContext(RefContext);
   const academicProjects = [];
@@ -62,13 +65,13 @@ const Projects = () => {
         {professionalProjects
           .filter((project) => project.type === "professional")
           .map((project, index) => (
-            <li key={index}>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+            <li key={index} className="card">
+              <h3 className="card-title">{project.title}</h3>
+              <p className="card-description">{project.description}</p>
             </li>
           ))}
       </ul>
-
+      {/* <Project /> */}
       {/* <h2>Academic Projects</h2>
       <ul>
         {projects
@@ -80,6 +83,8 @@ const Projects = () => {
             </li>
           ))}
       </ul> */}
+
+      {/* </div> */}
     </div>
   );
 };

@@ -1,8 +1,6 @@
-// App.js or Skills.js (depending on your file structure)
 import React from "react";
-import "./Skills.css"; // For CSS styling
+import "./Skills.css";
 
-// SkillBar Component
 const SkillBar = ({ skill, percentage }) => {
   return (
     <div className="skill-bar">
